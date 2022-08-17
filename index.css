@@ -1,0 +1,69 @@
+body,html{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height:100%;
+    background-color: black;
+    color: white;
+    font-family: quicksand;
+}
+.MainHeader{
+    padding: 8px;
+    text-align: center;
+    background: linear-gradient(#00B09B, #96C93D);;
+}
+.NameOfPage{
+    margin:0px;
+    padding:8px;
+    font-size:xx-large;
+    font-weight: 600;
+}
+.searchContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.searchBarDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    margin:8px 2px;
+    padding:2px;
+    border-radius: 8px;
+    width: 50vw;
+    box-shadow: 3px 3px rgb(56, 56, 56) ;
+}
+#searchIcon{
+    padding:0px;
+    margin:0px;
+    text-align: center;
+    color:black;
+}
+#inputSearchGif{
+    outline: none;
+    border: none;
+    width: 25vw;
+    font-family: montserrat;
+}
+#displayGifContent{
+    padding:8px;
+}
+#searchResult{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#addMore{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:8px;
+}
