@@ -48,6 +48,7 @@ body,html{
     border: none;
     width: 25vw;
     font-family: montserrat;
+    width: 100%;
 }
 #displayGifContent{
     padding:8px;
